@@ -1,5 +1,5 @@
 <?php session_start();
-$link = mysqli_connect('localhost', 'root', 'Olambeass1', 'israel');
+$link = mysqli_connect('/', 'root', 'Olambeass1', 'israel');
 
 $find_name = '';
 if(isset($_POST['sub_message'])){
