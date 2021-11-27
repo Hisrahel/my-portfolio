@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,18 +43,18 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex justify-content-between align-items-center">
       <!-- <img src="assets/img/download-removebg-preview.png" width="4%"> -->
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Portfolio</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.php">Portfolio</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
      
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
+        <li><a class="active" href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="resume.php">Resume</a></li>
+          <li><a href="services.php">Services</a></li>
           <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contac.php">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -73,7 +75,7 @@
     <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
       <h1>Olayemi<span class="israel"> Israel</span></h1>
       <h2>I'm a professional Web De<span class="web">veloper from Nigeria.</span></h2>
-      <a href="about.html" class="btn-about"><b><span class="me">About</span> Me</b></a>
+      <a href="about.php" class="btn-about"><b><span class="me">About</span> Me</b></a>
     </div>
   </section><!-- End Hero -->
 
@@ -88,7 +90,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/ -->
-        Designed by <a href="resume.html">Hisrahel</a>
+        Designed by <a href="resume.php">Hisrahel</a>
       </div>
     </div>
   </footer><!-- End  Footer -->

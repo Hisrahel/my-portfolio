@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,18 +43,18 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex justify-content-between align-items-center">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Portfolio</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.php">Portfolio</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a class="active" href="services.html">Services</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="resume.php">Resume</a></li>
+          <li><a class="active" href="services.php">Services</a></li>
           <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contac.php">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -102,7 +104,7 @@
                 <i class="bx bx-file"></i>
               </div>
               <h4><a href="">Tutoring</a></h4>
-              <p>I'm open for tutoring, Young Nigerians that are willing to learn and know more on web development can<span><a href="contact.html" class=""> contact me</a></span></p>
+              <p>I'm open for tutoring, Young Nigerians that are willing to learn and know more on web development can<span><a href="contac.php" class=""> contact me</a></span></p>
             </div>
           </div>
 
@@ -115,7 +117,7 @@
                 <i class="bx bx-tachometer"></i>
               </div>
               <h4><a href="">Mentorship</a></h4>
-              <p>I'm also open for Mentorship, Young Nigerians that are willing to be mentored by an experienced personnel should also<span><a href="contact.html" class=""> contact me</a></span></p>
+              <p>I'm also open for Mentorship, Young Nigerians that are willing to be mentored by an experienced personnel should also<span><a href="contac.php" class=""> contact me</a></span></p>
             </div>
           </div>
 
@@ -128,7 +130,7 @@
                 <i class="bx bx-layer"></i>
               </div>
               <h4><a href="">Mentorship</a></h4>
-              <p>I'm also open for Mentorship, Young Nigerians that are willing to be mentored by an experienced personnel should also<span><a href="contact.html" class=""> contact me</a></span></p>
+              <p>I'm also open for Mentorship, Young Nigerians that are willing to be mentored by an experienced personnel should also<span><a href="contac.php" class=""> contact me</a></span></p>
             </div>
           </div>
 
@@ -176,7 +178,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/ -->
-        Designed by <a href="about.html">Hisrahel</a>
+        Designed by <a href="about.php">Hisrahel</a>
       </div>
     </div>
   </footer><!-- End  Footer -->

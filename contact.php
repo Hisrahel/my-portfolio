@@ -1,5 +1,5 @@
 <?php session_start();
-$link = mysqli_connect('/', 'root', 'Olambeass1', 'israel');
+$link = mysqli_connect('localhost', 'root', 'Olambeass1', 'israel');
 
 $find_name = '';
 if(isset($_POST['sub_message'])){
@@ -72,7 +72,7 @@ if(isset($_POST['sub_message'])){
 <body>
     <div class="py-5">
       <h3 class="text-center">Thanks for your Message.</h3>    
-      <p class="text-center"> Please click the <span><a href="index.html" class="btn btn-success">HOME</a></span> button to go back to the home page.</p>
+      <p class="text-center"> Please click the <span><a href="index.php" class="btn btn-success">HOME</a></span> button to go back to the home page.</p>
 </div>
 </body>
 </html>
