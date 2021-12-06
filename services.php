@@ -54,7 +54,7 @@
           <li><a href="resume.php">Resume</a></li>
           <li><a class="active" href="services.php">Services</a></li>
           <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-          <li><a href="contac.php">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -104,7 +104,7 @@
                 <i class="bx bx-file"></i>
               </div>
               <h4><a href="">Tutoring</a></h4>
-              <p>I'm open for tutoring, Young Nigerians that are willing to learn and know more on web development can<span><a href="contac.php" class=""> contact me</a></span></p>
+              <p>I'm open for tutoring, Young Nigerians that are willing to learn and know more on web development can<span><a href="contact.php" class=""> contact me</a></span></p>
             </div>
           </div>
 
@@ -117,7 +117,7 @@
                 <i class="bx bx-tachometer"></i>
               </div>
               <h4><a href="">Mentorship</a></h4>
-              <p>I'm also open for Mentorship, Young Nigerians that are willing to be mentored by an experienced personnel should also<span><a href="contac.php" class=""> contact me</a></span></p>
+              <p>I'm also open for Mentorship, Young Nigerians that are willing to be mentored by an experienced personnel should also<span><a href="contact.php" class=""> contact me</a></span></p>
             </div>
           </div>
 
@@ -130,7 +130,7 @@
                 <i class="bx bx-layer"></i>
               </div>
               <h4><a href="">Mentorship</a></h4>
-              <p>I'm also open for Mentorship, Young Nigerians that are willing to be mentored by an experienced personnel should also<span><a href="contac.php" class=""> contact me</a></span></p>
+              <p>I'm also open for Mentorship, Young Nigerians that are willing to be mentored by an experienced personnel should also<span><a href="contact.php" class=""> contact me</a></span></p>
             </div>
           </div>
 

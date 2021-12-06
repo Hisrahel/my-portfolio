@@ -54,7 +54,7 @@
           <li><a class="active" href="resume.php">Resume</a></li>
           <li><a href="services.php">Services</a></li>
           <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-          <li><a href="contac.php">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
