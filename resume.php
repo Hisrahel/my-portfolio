@@ -43,13 +43,13 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex justify-content-between align-items-center">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Portfolio</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.php">Portfolio</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
           <li><a href="about.php">About</a></li>
           <li><a class="active" href="resume.php">Resume</a></li>
           <li><a href="services.php">Services</a></li>
