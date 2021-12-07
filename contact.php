@@ -68,7 +68,7 @@ if(isset($_POST['sub_message'])){
 
     echo "<script>alert('Dear $from_name, Your message has been delivered successfully!!')</script>";
   } else{
-    echo "<script>alert('Message not sent, Please try again later... Thank you!!')</script>";
+    echo "<script>alert('Dear $from_name, Your message was not sent, Please try again later... Thank you!!')</script>";
 }
 }
 ?>
