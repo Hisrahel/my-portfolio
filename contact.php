@@ -7,7 +7,7 @@ if(isset($_POST['sub_message'])){
   $from_name = $_POST['name'];
   $from_email = $_POST['email'];
   $subject = $_POST['subject'];
-  $message_text = $_POST['message'];
+  $message = $_POST['message'];
 
   date_default_timezone_set("Africa/Lagos");
   $from_date = date("F d, Y");
@@ -47,7 +47,7 @@ if(isset($_POST['sub_message'])){
   </tr>
   <tr>
   <td>Message:</td>
-  <td>".$message_text."</td>
+  <td>".$message."</td>
   </tr>
   </table>
   </body>
