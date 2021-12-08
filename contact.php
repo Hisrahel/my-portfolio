@@ -9,11 +9,11 @@ if(isset($_POST['sub_message'])){
   $subject = $_POST['subject'];
   $message = $_POST['message'];
 
-  // date_default_timezone_set("Africa/Lagos");
-  // $from_date = date("F d, Y");
+  date_default_timezone_set("Africa/Lagos");
+  $date = date("F d, Y");
 
-  // $time_stamp1 = ltrim(date('h:i a'), 0);
-  // $from_time = $time_stamp1;
+  $stamp1 = ltrim(date('h:i a'), 0);
+  $time = $stamp1;
 
   $to = "olayemisrael5@gmail.com";
   
@@ -36,6 +36,14 @@ if(isset($_POST['sub_message'])){
   <tr>
   <td>Name:</td>
   <td>".$name."</td>
+  </tr>
+  <tr>
+  <td>Sent:</td>
+  <td>".$date."</td>
+  </tr>
+  <tr>
+  <td>Time:</td>
+  <td>".$time."</td>
   </tr>
   <tr>
   <td>Message:</td>
@@ -228,14 +236,6 @@ if(isset($_POST['sub_message'])){
 
 <body>
 
-<!-- <tr>
-   <td>Sent:</td>
-   <td>".$from_date."</td>
-   </tr>
-   <tr>
-   <td>Time:</td>
-  <td>".$from_time."</td>
-  </tr> -->
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex justify-content-between align-items-center">
