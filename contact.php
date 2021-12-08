@@ -4,16 +4,16 @@ $link = mysqli_connect('localhost', 'root', 'Olambeass1', 'israel');
 
 if(isset($_POST['sub_message'])){
 
-  $from_name = $_POST['name'];
-  $from_email = $_POST['email'];
+  $name = $_POST['name'];
+  $email = $_POST['email'];
   $subject = $_POST['subject'];
   $message = $_POST['message'];
 
-  date_default_timezone_set("Africa/Lagos");
-  $from_date = date("F d, Y");
+  // date_default_timezone_set("Africa/Lagos");
+  // $from_date = date("F d, Y");
 
-  $time_stamp1 = ltrim(date('h:i a'), 0);
-  $from_time = $time_stamp1;
+  // $time_stamp1 = ltrim(date('h:i a'), 0);
+  // $from_time = $time_stamp1;
 
   $to = "olayemisrael5@gmail.com";
   
@@ -31,19 +31,11 @@ if(isset($_POST['sub_message'])){
   </tr>
   <tr>
   <td>Email:</td>
-  <td>".$from_email."</td>
+  <td>".$email."</td>
   </tr>
   <tr>
   <td>Name:</td>
-  <td>".$from_name."</td>
-  </tr>
-  <tr>
-  <td>Sent:</td>
-  <td>".$from_date."</td>
-  </tr>
-  <tr>
-  <td>Time:</td>
-  <td>".$from_time."</td>
+  <td>".$name."</td>
   </tr>
   <tr>
   <td>Message:</td>
@@ -59,16 +51,16 @@ if(isset($_POST['sub_message'])){
   $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
   
   // More headers
-  $headers .= 'From: <'.$from_email.'>' . "\r\n";
+  $headers .= 'From: <'.$email.'>' . "\r\n";
   $headers .= 'Cc: ' . "\r\n";
   
   $mailsent = mail($to,$subject,$message,$headers);
 
   if($mailsent == true){
 
-    echo "<script>alert('Dear $from_name, Your message has been delivered successfully!!')</script>";
+    echo "<script>alert('Dear $name, Your message has been delivered successfully!!')</script>";
   } else{
-    echo "<script>alert('Dear $from_name, Your message was not sent, Please try again later... Thank you!!')</script>";
+    echo "<script>alert('Dear $name, Your message was not sent, Please try again later... Thank you!!')</script>";
 }
 }
 ?>
@@ -236,6 +228,14 @@ if(isset($_POST['sub_message'])){
 
 <body>
 
+<!-- <tr>
+   <td>Sent:</td>
+   <td>".$from_date."</td>
+   </tr>
+   <tr>
+   <td>Time:</td>
+  <td>".$from_time."</td>
+  </tr> -->
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex justify-content-between align-items-center">
